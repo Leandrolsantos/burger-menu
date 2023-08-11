@@ -29,5 +29,5 @@ header {
 }
 
 .menu-burger {
-    
+    display: grid;
 }
