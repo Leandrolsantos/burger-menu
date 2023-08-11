@@ -1,3 +1,0 @@
-const burgerMenu = document.querySelector('burger-menu');
-
-burgerMenu.addEventListener
