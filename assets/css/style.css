@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Caprasimo', cursive;
 }
 
 header {
-    background-color: #262626;
+    background: linear-gradient(rgba(146, 96, 3), rgba(74, 122, 3), rgba(131, 4, 4), rgba(0, 0, 0));
+    color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.696);
 }
 
 li {
@@ -14,8 +18,11 @@ li {
 }
 
 a {
-    color: white;
+    color: rgb(234, 226, 180);
     text-decoration: none;
+    text-shadow: 1px 1px 3px black;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
 }
 
 .navbar {
@@ -60,40 +67,50 @@ a {
     background-color: white;
 }
 
-@media(max-width: 1024px){
-    .hamburguer {
-        display: block;
-    }
+#top {
+    background-color: orange;
+}
 
-    .hamburguer.active .bar:nth-child(2){
-        opacity: 0;        
-    }
+#center {
+    background-color: greenyellow;
+}
 
-    .hamburguer.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
+#bottom {
+    background-color: red;
+}
 
-    .hamburguer.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
+@media(max-width:1024px){
+  .hamburger{
+    display: block;
+  }
 
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #262626;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-    .nav-item {
-        margin: 16px 0;
-    }
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.474), rgba(255, 166, 0, 0.732));
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
 
-    .nav-menu.active {
-        left: 0;
-    }
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
 }
