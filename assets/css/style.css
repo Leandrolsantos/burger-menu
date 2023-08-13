@@ -46,10 +46,11 @@ a {
 
 .nav-link {
     transition: 0.7s ease;
+    font-size: 1.3rem;
 }
 
 .nav-link:hover {
-    color: dodgerblue;
+    color: rgba(0, 255, 229);
 }
 
 .hamburguer {
