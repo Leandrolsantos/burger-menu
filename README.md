@@ -12,15 +12,15 @@ Deploy: (EM BREVE)
 
 ## Sobre
 
-(EM BREVE)
+É um menu responsivo tipo "Menu Hamburguer" tematizado.
 
 ### Objetivos
 
-(EM BREVE)
+Treinar minhas habilidades de interatividade.
 
 ### Desafio
 
-(EM BREVE)
+Aprender mais sobre o responsivo e a interatividade da página.
 
 ### Conclusão
 
