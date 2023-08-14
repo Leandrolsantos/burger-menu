@@ -8,18 +8,19 @@
 }
 
 header {
-    background: linear-gradient(rgba(146, 96, 3), rgba(74, 122, 3), rgba(131, 4, 4), rgba(0, 0, 0));
+    background: linear-gradient(rgb(215, 135, 24), rgb(108, 184, 75), rgb(130, 31, 31), rgb(46, 45, 45));
     color: white;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.696);
 }
 
 body {
-  background: url("/assets/img/background.jpg") no-repeat;
+  background: url("/assets/img/background3.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   min-width: 100vw;
   margin: 0 auto;
+  position: relative;
 }
 
 li {
@@ -75,6 +76,7 @@ a {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.696);
 }
 
 #top {
@@ -92,11 +94,9 @@ a {
 @media(max-width:1024px){
 
   body {
-    background: url("/assets/img/background2.jpg") no-repeat;
+    background: url("/assets/img/background3.jpg") no-repeat;
     background-size: cover;
     min-height: 100vh;
-    display: block;
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.712);
   }
 
@@ -120,7 +120,7 @@ a {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.474), rgba(255, 166, 0, 0.732));
+    background: linear-gradient(rgba(0, 0, 0, 0.732), rgba(255, 166, 0, 0.732));
     width: 100%;
     text-align: center;
     transition: 0.3s;
