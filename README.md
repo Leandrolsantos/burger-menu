@@ -12,7 +12,7 @@
 
 ![](./assets/img/5.png)
 
-Deploy: (EM BREVE)
+Deploy: https://burger-menu-theta.vercel.app/
 
 ## Sobre
 
